@@ -1,6 +1,4 @@
-/**
- * Created by tony on 2017/7/18.
- */
+
 import java.awt.Image;
 
 import java.awt.image.BufferedImage;
@@ -141,7 +139,7 @@ public class PicReduce {
     }
 
     public static void main(String args[]) throws Exception {
-//        zipImageFile("/Users/tony/Desktop/铝团网app效果图/index.jpg ", 1280, 1280, 1f, "x2");
+//        zipImageFile("/Users/tony/Desktop/index.jpg ", 1280, 1280, 1f, "x2");
         saveMinPhoto("/Users/tony/Desktop/d5d45edfd45ee13a6a3f29b458f01a2f.jpg", "/Users/tony/Desktop/index.png ", 800, 1);
     }
 }
